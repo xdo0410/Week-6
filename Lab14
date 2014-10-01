@@ -10,7 +10,7 @@ public class RPS
     	String userInput;
     	
 
-        int userChoice = -1, cpuChoice, timesWon = 0, timesLost = 0, timesTied = 0;
+        int userChoice = -1, timesWon = 0, timesLost = 0, timesTied = 0;
 
        boolean debug = false;
 
@@ -110,17 +110,15 @@ public class RPS
 
             }
 
-             
 
             if(debug == true)
 
             {
 
-           System.out.println("RAW INFO::userChoice=="+ userChoice +"::cpuChoice==="+ cpuChoice1());
+           System.out.println("RAW INFO::userChoice=="+ userChoice +"::cpuChoice==="+ CpuChoice);
 
             
             }
-             
 
             System.out.print("Play again(y/n)? ");
 
@@ -150,3 +148,4 @@ public class RPS
 
     }
 
+}
