@@ -1,0 +1,33 @@
+3.1
+a) public.
+b)class.
+c)new. 
+d) type,name.
+e) default package. 
+f) instance variable.
+g) float, double. 
+h) double-precision. 
+i) nextDouble. 
+j) modifier. 
+k)void.
+l)nextLine. 
+m)java.lang. 
+n) import declaration. 
+o) floating-point number. 
+p) single-precision. 
+q) %f.
+r) primitive, reference. 
+3.2 a) False. By convention, method names begin with a lowercase first letter and all subsequent words in the name begin with a capital first letter.
+b)True.
+c)True.
+d)True.
+e)False.Aprimitive type variable cannot be used to invoke a method—are ference to an objectis required to invoke the object’s methods.
+f) False. Such variables are called local variables and can be used only in the method in which they’re declared.
+g) True. 
+h) False. Primitive-type instance variables are initialized by default. Each local variable must explicitly be assigned a value.
+i) True. 
+j) True. 
+k) True. 
+l) False. Such literals are of type double by default. 
+3.3 A local variable is declared in the body of a method and can be used only from the point at which it’s declared through the end of the method declaration. A field is declared in a class, but not in the body of any of the class’s methods. Also, fields are accessible to all methods of the class.
+3.4 A parameter represents additional information that a method requires to perform its task. Each parameter required by a method is specified in the method’s declaration. An argument is the actual value for a method parameter. When a method is called,the argument values are passed to the corresponding parameters of the method so that it can perform its task.
